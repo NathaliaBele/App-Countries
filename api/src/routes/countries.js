@@ -6,7 +6,7 @@ const router = Router();
 
 
 router.get('/', async (req, res) => {
-
+    
 
     let countriesAllDb = await Country.findAll({ include: { model: Activity } });
 
@@ -88,3 +88,5 @@ router.get('/:id', async (req, res) => {
 
 
 module.exports = router;
+
+

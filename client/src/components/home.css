@@ -1,0 +1,66 @@
+.home {}
+
+.container__cards {
+    width: 100%;
+    min-height: 100vh;
+    height: 430;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto
+}
+
+
+
+.filterNav {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+.paginatorContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sourceTemp {
+    justify-content: space-around;
+}
+
+.title {
+    height: auto;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-start;
+    color: white;
+    margin-right: 25%;
+}
+
+.paginated{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.ordenamiento{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
